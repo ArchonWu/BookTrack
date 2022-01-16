@@ -1,38 +1,60 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  text-align: left;
+  /* margin-left: 50px; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.searchBookDiv {
+  margin-left: 100px;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#searchBookTitleBar{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 0;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+}
+
+#confirm_button{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: rgb(202, 202, 202);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 0;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+}
+
+h3{
+  font-size: 30px;
+  margin-bottom: 5px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #bb8b5e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#book_logo{
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#book_logo:hover{
+  transform: scale(1.25);
 }
